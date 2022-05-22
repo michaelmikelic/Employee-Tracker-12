@@ -1,0 +1,28 @@
+{
+  "name": "sql-employee-tracker",
+  "version": "1.0.0",
+  "description": "Content Management System",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "seed": "node seed.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAHco-code/SQL-Employee-Tracker.git"
+  },
+  "author": "Kathryn Wilkinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NAHco-code/SQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/NAHco-code/SQL-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5"
+  }
+}
